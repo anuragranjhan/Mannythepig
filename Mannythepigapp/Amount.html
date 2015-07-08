@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script>
+  
+    function init()
+    {
+        document.addEventListener("deviceready", init, false);
+
+    }
+    function goToHome()
+    {
+        window.location = "index.html";
+    }
+    </script>
+</head>
+<body onload="init();">
+    <h1 style="color:red;">Many the Hungry Pig</h1>
+    <input type="button" value="Home" onclick="goToHome()" />
+</body>
+</html>
